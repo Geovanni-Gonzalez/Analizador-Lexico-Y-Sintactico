@@ -1,0 +1,33 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+
+# === JFlex & Cup (Archivos autogenerados) ===
+# Es mejor generarlos localmente que subirlos, 
+# aunque el enunciado pide incluir .flex y .cup.
+# Descomenta las siguientes líneas si prefieres no subir los .java generados:
+# Yylex.java
+# parser.java
+# sym.java
+
+# === IDEs (IntelliJ, VS Code, Eclipse) ===
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+out/
+build/
+
+# === Archivos de Sistema ===
+.DS_Store
+Thumbs.db
+
+# === Proyecto Específico ===
+# Ignorar el ZIP final para no subirlo por error al repo
+PP1_*.zip
