@@ -1,0 +1,20 @@
+# ==== Formato: tipo(scope): descripcion corta ====
+# tipos: feat | fix | docs | refactor | test | chore
+# scope: scanner | parser | grammar | java | tests | docs
+#
+# Ejemplos:
+#   feat(scanner): agregar tokens de bloques LBLOCK y RBLOCK
+#   feat(parser): implementar producciones de expresiones aritmeticas
+#   fix(scanner): corregir orden de FRAC_LIT antes de DIV
+#   fix(parser): resolver conflicto shift/reduce en if-else
+#   docs(grammar): completar jerarquia de no-terminales Dia 3
+#   test: agregar test_valid_02 con funciones y arreglos
+#   chore: actualizar pom.xml con dependencia JUnit 5
+#
+# ==== Descripcion larga (opcional, dejar linea en blanco) ====
+
+# ==== REGLAS ====
+# - Maximo 72 caracteres en la primera linea
+# - Usar imperativo: "agregar" no "agregue" ni "agregando"
+# - Un commit por tarea del cronograma
+# - El profesor evalua commits individuales — sé descriptivo
